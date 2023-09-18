@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Game\ Room.jpg);
+}
+
+#game-container {
+    width: 700px;
+    height: 700px;
+    display: grid;
+    border: 5px;
+}
+
+.cell {
+    border: 1px solid black;
+    background-color: rgb(153, 243, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.exit-cell {
+    background-color: beige;
+    text-shadow: 2px 2px 2px black; 
+}
+
+.enemy-cell {
+    text-shadow: 2px 2px 2px black;
+}
+
+.player-cell {
+    text-shadow: 2px 2px 2px black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
