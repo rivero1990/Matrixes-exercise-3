@@ -1,9 +1,7 @@
 body {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
     background-image: url(Game\ Room.jpg);
 }
 
@@ -13,6 +11,49 @@ body {
     display: grid;
     border: 5px;
 }
+
+.modal-loss {
+    position: fixed;
+    top: 20px;
+    left: 35px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 115, 115);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    border: 3px solid balck;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-win{
+    position: fixed;
+    top: 20px;
+    right: 35px;
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid balck;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: mediumspringgreen;
+}
+
 
 .cell {
     border: 1px solid black;
@@ -24,7 +65,7 @@ body {
 }
 
 .exit-cell {
-    background-color: beige;
+    background-color: darkturquoise;
     text-shadow: 2px 2px 2px black; 
 }
 
@@ -35,6 +76,9 @@ body {
 .player-cell {
     text-shadow: 2px 2px 2px black; 
 }
+
+
+
 
 
 
